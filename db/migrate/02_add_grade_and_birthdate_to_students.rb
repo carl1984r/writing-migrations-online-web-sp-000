@@ -1,4 +1,4 @@
-class AddFavoriteFoodToArtists < ActiveRecord::Migration[4.2]
+class AddColumnsToStudents < ActiveRecord::Migration[4.2]
 
   def change
     add_column :students, :grade, :integer
